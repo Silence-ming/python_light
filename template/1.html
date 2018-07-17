@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+ <div>
+    {% if name %}
+       <ul>
+           <li>111</li>
+       </ul>
+    {% endif %}
+
+    {% for item in range(10) %}
+      <div>
+          {{ item }}
+      </div>
+    {% endfor %}
+
+
+    {{ name }}
+    {{ id }}
+
+ </div>
+</body>
+</html>
